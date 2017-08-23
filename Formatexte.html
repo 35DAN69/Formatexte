@@ -6,6 +6,10 @@
         <title>Mise en forme</title>
         
         <style type="text/css">
+            body
+            {
+                background-color: rgb(192,192,192);
+            }
             
             #contenu
             {
@@ -15,15 +19,19 @@
                 float: left;
                 margin: 100px;
                 text-align: justify;
+                background-color: white;
             }
             #controles
             {
-                width: 300px;
+                width: 500px;
                 height: 450px;
                 border: 1px black solid;
                 float: left;
                 margin-top: 100px;
                 margin-bottom: 100px;
+                background-color: white;
+                padding-top: 10px;
+                padding-left: 10px;
             }
             #controles div
             {
@@ -74,7 +82,7 @@
             </div>      
 
             <div>
-                <label for="police">Police</label>
+                <label for="police">Police du texte</label>
                 <select id="police">
                     <option value="Times New Roman">Times New Roman</option>
                     <option value="Courier New">Courier New</option>
@@ -83,7 +91,7 @@
             </div>      
 
             <div>
-                <label for="police-prem-phrase">Police 1e phrase</label>
+                <label for="police-prem-phrase">Police du premier paragraphe</label>
                 <select id="police-prem-phrase">
                     <option value="Times New Roman">Times New Roman</option>
                     <option value="Courier New">Courier New</option>
