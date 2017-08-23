@@ -10,7 +10,8 @@ Options
 
 Ce programme permettra de modifier les options suivantes :
 
-- Couleur de fond (blanc, bleu, vert, jaune )
+- Couleur de fond (blanc, argent, noir, rouge, vert, jaune, bleu, violet )
+- Couleur du texte (blanc, argent, noir, rouge, vert, jaune, bleu, violet )
 - Texte (normal, gras, italique, souligné )
 - Police du texte (Times New Roman, Courrier New, Arial )
 - Police du premier paragraphe (Times New Roman, Courrier New, Arial )
