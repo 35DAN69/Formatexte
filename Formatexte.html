@@ -69,6 +69,16 @@
                     <option value="#9FFECE">Vert</option>
                     <option value="#FAFE9F">Jaune</option>
                 </select>
+            </div>
+            
+            <div>                
+                <label for="couleur-texte">Couleur du texte</label>
+                <select id="couleur-texte">
+                    <option value="#FFFFFF">Blanc</option>
+                    <option value="#9FFEF1">Bleu</option>
+                    <option value="#9FFECE">Vert</option>
+                    <option value="#FAFE9F">Jaune</option>
+                </select>
             </div>    
 
             <div>
@@ -115,7 +125,12 @@
             // couleur de fond
             $('#couleur-fond').change(function(){
                 var couleur = $(this).val();
-                $('#contenu').css('background-color', couleur)
+                $('#contenu').css('background-color', couleur);
+            });
+            // couleur du texte
+            $('#couleur-texte').change(function(){
+                var couleur = $(this).val();
+                $('#contenu').css('color', couleur);
             });
             // Attributs du texte
             $('#texte').change(function(){
